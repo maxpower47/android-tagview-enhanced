@@ -3,11 +3,13 @@ package com.github.maxpower47.tagviewenhanced.library.ui;
 import android.text.style.ClickableSpan;
 import android.view.View;
 
+import com.github.maxpower47.tagviewenhanced.library.model.Tag;
+
 public class ClickableTagSpan extends ClickableSpan {
-	private final String mTag;
+	private final Tag mTag;
 	private TagClickListener mTagClickListener;
 
-	public ClickableTagSpan(String tag, TagClickListener listener) {
+	public ClickableTagSpan(Tag tag, TagClickListener listener) {
 		super();
 		if (tag == null) {
 			throw new NullPointerException();

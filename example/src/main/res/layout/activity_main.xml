@@ -17,6 +17,7 @@
         android:textColor="#FFFFFF"
         android:textIsSelectable="false"
         app:tagCornerRadius="6dp"
+        app:tagColor="#FF0000"
         tools:text="test tag another test2"/>
 
 </RelativeLayout>
